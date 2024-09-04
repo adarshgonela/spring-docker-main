@@ -12,6 +12,11 @@ public class HelloController {
     public String getMessage(){
         return "Welcome to SpringBoot Docker";
     }
+
+    @GetMapping("/hi")
+    public String getMessage1(){
+        return "i am hi";
+    }
 }
 
 
